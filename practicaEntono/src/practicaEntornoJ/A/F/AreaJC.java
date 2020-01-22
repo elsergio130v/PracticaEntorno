@@ -15,6 +15,13 @@ public class AreaJC {
 		double r = Leer.decimal();
 		double area = Math.PI*Math.pow(Math.PI, r);
 		return area;
-		
+	}
+	
+	public static double areaElipse() {
+		double a = Leer.decimal();
+		double b = Leer.decimal();
+		double area = Math.PI*a*b;
+		return area;
+//		as
 	}
 }
