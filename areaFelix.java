@@ -9,6 +9,6 @@ public class areaFelix {
 		int a=Leer.entero();
 		int area=a*h;
 		return area;
-		
+	
 	}
 }
