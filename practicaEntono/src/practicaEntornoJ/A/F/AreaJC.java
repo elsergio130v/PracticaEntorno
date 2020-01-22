@@ -22,5 +22,6 @@ public class AreaJC {
 		double b = Leer.decimal();
 		double area = Math.PI*a*b;
 		return area;
+//		as
 	}
 }
