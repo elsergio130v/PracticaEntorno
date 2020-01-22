@@ -7,7 +7,7 @@ public class areasAlonso {
 		System.out.println("Necesito la altura");
 		int a = Leer.entero();
 		int area = (b * a) / 2;
-
+//as
 		return area;
 	}
 	
