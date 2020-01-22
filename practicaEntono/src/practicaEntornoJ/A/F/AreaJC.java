@@ -15,6 +15,6 @@ public class AreaJC {
 		double r = Leer.decimal();
 		double area = Math.PI*Math.pow(Math.PI, r);
 		return area;
-		//zdfzhz
+		
 	}
 }
