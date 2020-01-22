@@ -9,6 +9,11 @@ public class Leer {
 		int retorno = lector.nextInt();
 		return retorno;
 	}
+	
+	public static double decimal() {
+		double retorno = lector.nextInt();
+		return retorno;
+	}
 
 	public static char letra() {
 		char retorno = lector.nextLine().toLowerCase().charAt(0);
