@@ -11,4 +11,11 @@ public class areasAlonso {
 		return area;
 	}
 	
+	
+	public int areaCuadrado() {
+		System.out.println("Necesito el lado");
+		int lado = Leer.entero();
+		int area=lado^2;
+		return area;
+	}
 }
