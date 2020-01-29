@@ -9,7 +9,6 @@ public class areaFelix {
 		int a=Leer.entero();
 		int area=a*h;
 	System.out.println("El area del paralelogramo es "+area);
-		
 	}
 	
 	public static void areaRombo() {
