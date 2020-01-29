@@ -13,6 +13,9 @@ public class SelectorAreas {
 		System.out.println("Area del cuadrilatero Convexo -----> Tecla 4");
 		System.out.println("Area del circulo ---------------> Tecla 5");
 		System.out.println("Area del elipse ---------------> Tecla 6");
+		System.out.println("Area del paralelogramo ---------------> Tecla 7");
+		System.out.println("Area del rombo ---------------> Tecla 8");
+		System.out.println("Area del trapecio ---------------> Tecla 9");
 		int eleccion = Leer.entero();
 		
 		//llevar a cabo la eleccion
@@ -34,6 +37,15 @@ public class SelectorAreas {
 			break;
 		case 6:
 			AreaJC.areaElipse();
+			break;
+		case 7:
+			areaFelix.areaParalelogramo();
+			break;
+		case 8:
+			areaFelix.areaRombo();
+			break;
+		case 9:
+			areaFelix.areaTrapecio();
 			break;
 		}
 
