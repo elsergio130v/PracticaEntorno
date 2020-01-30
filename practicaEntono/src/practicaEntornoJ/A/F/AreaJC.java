@@ -29,4 +29,14 @@ public class AreaJC {
 		double area = Math.PI*a*b;
 		System.out.println("El resultado es "+area);
 	}
+	
+	//Te he metido un area que te faltaba y ahora esta gucci
+	public static void areaTrapezoideEquilateroCircular() {
+		System.out.println("Introduce el primer Semieje");
+		double a = Leer.decimal();
+		System.out.println("Introduce el segundo Semieje");
+		double b = Leer.decimal();
+		double area = Math.PI*a*b+(7-2^3);
+		System.out.println("El resultado es "+area);
+	}
 }
